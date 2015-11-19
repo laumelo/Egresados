@@ -16,7 +16,30 @@
     <h:body>
         <h:form class="form-control">  
             <p:menubar>
-                <p:menuitem value="Universidad Mariana" url="#"/>
+                <p:menuitem value=" Universidad Mariana " url="#"/>
+                 <p:submenu label="Egresados" icon="ui-icon-document">
+                  <p:menuitem value="Cargo" outcome="/cargo/List" />
+                  <p:separator />
+                  <p:menuitem value="Ciudad" outcome="/ciudad/List" />
+                  <p:separator />
+                  <p:menuitem value="Distincion" outcome="/distincion/List" />
+                   <p:separator />
+                  <p:menuitem value="Egresado" outcome="/egresado/List" />
+                   <p:separator />
+                  <p:menuitem value="Empresa" outcome="/empresa/List" />
+                   <p:separator />
+                  <p:menuitem value="Experiencia" outcome="/experiencia/List" />
+                   <p:separator />
+                  <p:menuitem value="Funcion" outcome="/funcion/List" />
+                   <p:separator />
+                  <p:menuitem value="Pais" outcome="/pais/List" />
+                   <p:separator />
+                  <p:menuitem value="Postgrado" outcome="/postgrado/List" />
+                   <p:separator />
+                  <p:menuitem value="Red" outcome="/red/List" />
+                   <p:separator />
+                  <p:menuitem value="Universidad" outcome="/universidad/List" />
+        </p:submenu>
                 <p:submenu label="Quienes somos?">
                     <p:menuitem value="Misión" url="#"/>
                     <p:menuitem value="Visión" url="#"/>
@@ -33,28 +56,9 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="js/bootstrap.min.js"></script>
-        <br />
-        <h:link outcome="/cargo/List" value="Show All Cargo Items"/>
-        <br />
-        <h:link outcome="/ciudad/List" value="Show All Ciudad Items"/>
-        <br />
-        <h:link outcome="/distincion/List" value="Show All Distincion Items"/>
-        <br />
-        <h:link outcome="/egresado/List" value="Show All Egresado Items"/>
-        <br />
-        <h:link outcome="/empresa/List" value="Show All Empresa Items"/>
-        <br />
-        <h:link outcome="/experiencia/List" value="Show All Experiencia Items"/>
-        <br />
-        <h:link outcome="/funcion/List" value="Show All Funcion Items"/>
-        <br />
-        <h:link outcome="/pais/List" value="Show All Pais Items"/>
-        <br />
-        <h:link outcome="/postgrado/List" value="Show All Postgrado Items"/>
-        <br />
-        <h:link outcome="/red/List" value="Show All Red Items"/>
-        <br />
-        <h:link outcome="/universidad/List" value="Show All Universidad Items"/>
+        
+        
+        <img src="resources/imagenes/umariana.jpg" border="0" width="1330" height="600" ></img>
     </h:body>
 
 
@@ -68,4 +72,5 @@
 
 
 </html>
+
 
